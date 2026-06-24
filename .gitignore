@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Generated outputs (keep sample CSVs like endpoints.csv; ignore generated reports/exports)
+*.log
+*.tmp
+report*.html
+health*.html
+inventory*.csv
+software*.csv
+expiring*.csv
+
+# Secrets
+.env
+*.secret

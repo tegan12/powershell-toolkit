@@ -1,0 +1,5 @@
+Name,Host,Port,ServiceName
+Domain Controller,192.168.10.10,389,
+Web Server,192.168.10.20,80,
+Local DNS,127.0.0.1,53,
+Print Spooler (local),localhost,,Spooler
