@@ -59,7 +59,7 @@ Get-Help .\scripts\Get-SystemHealthReport.ps1 -Full
 cd powershell-toolkit
 git init && git add . && git commit -m "PowerShell IT support toolkit"
 git branch -M main
-git remote add origin https://github.com/<your-username>/powershell-toolkit.git
+git remote add origin https://github.com/tegan12/powershell-toolkit.git
 git push -u origin main
 ```
 Pin it on GitHub and add it to LinkedIn → **Featured**.
