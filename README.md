@@ -51,6 +51,20 @@ Get-Help .\scripts\Get-SystemHealthReport.ps1 -Full
 ---
 
 ## 📸 Screenshots
-> _Add a couple of output screenshots into `docs/screenshots/` — e.g. the health report and the
-> password-expiry table._
+
+**System health report** — disk, memory, uptime, CPU and top processes at a glance:
+
+![System health report](docs/screenshots/health-report.png)
+
+**Endpoint checks** — ping + TCP-port + local-service status for a list of hosts:
+
+![Endpoint checks](docs/screenshots/endpoint-test.png)
+
+**Installed-software inventory** — every installed app exported for auditing (282 found here):
+
+![Installed software inventory](docs/screenshots/software-inventory.png)
+
+**Safe cleanup with `-WhatIf`** — previews exactly what would be deleted before touching anything:
+
+![Cleanup -WhatIf preview](docs/screenshots/cleanup-whatif.png)
 
