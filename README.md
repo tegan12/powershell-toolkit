@@ -68,3 +68,7 @@ Get-Help .\scripts\Get-SystemHealthReport.ps1 -Full
 
 ![Cleanup -WhatIf preview](docs/screenshots/cleanup-whatif.png)
 
+**AD password-expiry report** — proactively flags accounts whose passwords expire soon, run against the [AD Home Lab](../ad-home-lab) domain (`corp.local`):
+
+![AD password expiry report run on the domain controller](docs/screenshots/password-expiry.png)
+
